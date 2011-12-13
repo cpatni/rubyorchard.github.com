@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[my blag]]></title>
+  <link href="http://rubyorchard.github.com/atom.xml" rel="self"/>
+  <link href="http://rubyorchard.github.com/"/>
+  <updated>2011-12-13T09:04:48-08:00</updated>
+  <id>http://rubyorchard.github.com/</id>
+  <author>
+    <name><![CDATA[Chandra Patni]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+</feed>
