@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[hacker hat]]></title>
-  <link href="http://rubyorchard.github.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: editor | hacker hat]]></title>
+  <link href="http://rubyorchard.github.com/blog/categories/editor/atom.xml" rel="self"/>
   <link href="http://rubyorchard.github.com/"/>
   <updated>2011-12-13T11:03:38-08:00</updated>
   <id>http://rubyorchard.github.com/</id>
@@ -22,12 +22,12 @@
 
 <p>Update: The release is on <a href="http://blog.macromates.com/2011/textmate-2-0-alpha/">TextMate2</a> site now.</p>
 
-<p><img class="left" src="http://rubyorchard.github.com/images/tm2_screenshots/TextMate2-about.png" title="TextMate2 About" >
-<img class="left" src="http://rubyorchard.github.com/images/tm2_screenshots/Preferences-terminal.png" title="Perferences Terminal" >
-<img class="screenshot" src="http://rubyorchard.github.com/images/tm2_screenshots/Preferences-bundle.png" title="Perferences Bundles" >
-<img class="screenshot" src="http://rubyorchard.github.com/images/tm2_screenshots/Filetype-selector.png" title="Filetype-selector" >
-<img class="screenshot" src="http://rubyorchard.github.com/images/tm2_screenshots/code1.png" title="CoffeeScript Code" >
-<img class="screenshot" src="http://rubyorchard.github.com/images/tm2_screenshots/code2.png" title="CoffeeScript Code" ></p>
+<p><img class="left" src="/images/tm2_screenshots/TextMate2-about.png" title="TextMate2 About" >
+<img class="left" src="/images/tm2_screenshots/Preferences-terminal.png" title="Perferences Terminal" >
+<img class="screenshot" src="/images/tm2_screenshots/Preferences-bundle.png" title="Perferences Bundles" >
+<img class="screenshot" src="/images/tm2_screenshots/Filetype-selector.png" title="Filetype-selector" >
+<img class="screenshot" src="/images/tm2_screenshots/code1.png" title="CoffeeScript Code" >
+<img class="screenshot" src="/images/tm2_screenshots/code2.png" title="CoffeeScript Code" ></p>
 ]]></content>
   </entry>
   
