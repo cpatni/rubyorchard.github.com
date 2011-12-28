@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[hacker hat]]></title>
+  <title><![CDATA[Chandra Patni]]></title>
   <link href="http://rubyorchard.github.com/atom.xml" rel="self"/>
   <link href="http://rubyorchard.github.com/"/>
-  <updated>2011-12-27T19:09:24-08:00</updated>
+  <updated>2011-12-27T19:27:41-08:00</updated>
   <id>http://rubyorchard.github.com/</id>
   <author>
     <name><![CDATA[Chandra Patni]]></name>
@@ -18,7 +18,7 @@
     <link href="http://rubyorchard.github.com/blog/2011/12/27/lint-conjecture/"/>
     <updated>2011-12-27T17:10:00-08:00</updated>
     <id>http://rubyorchard.github.com/blog/2011/12/27/lint-conjecture</id>
-    <content type="html"><![CDATA[<blockquote><p>For any static code analyzer tool, one should be able to write a script language which generates the code to satisfy the static code analyzer.</p></blockquote>
+    <content type="html"><![CDATA[<blockquote><p>For any static code analyzer tool, one should be able to write a *Script language which generates the code to satisfy the static code analyzer.</p></blockquote>
 
 ]]></content>
   </entry>
