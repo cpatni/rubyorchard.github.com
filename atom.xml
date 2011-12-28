@@ -4,7 +4,7 @@
   <title><![CDATA[hacker hat]]></title>
   <link href="http://rubyorchard.github.com/atom.xml" rel="self"/>
   <link href="http://rubyorchard.github.com/"/>
-  <updated>2011-12-17T22:23:05-08:00</updated>
+  <updated>2011-12-27T19:09:24-08:00</updated>
   <id>http://rubyorchard.github.com/</id>
   <author>
     <name><![CDATA[Chandra Patni]]></name>
@@ -12,6 +12,16 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[lint conjecture]]></title>
+    <link href="http://rubyorchard.github.com/blog/2011/12/27/lint-conjecture/"/>
+    <updated>2011-12-27T17:10:00-08:00</updated>
+    <id>http://rubyorchard.github.com/blog/2011/12/27/lint-conjecture</id>
+    <content type="html"><![CDATA[<blockquote><p>For any static code analyzer tool, one should be able to write a script language which generates the code to satisfy the static code analyzer.</p></blockquote>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Bitten by JavaScript Function Scope, Once Again]]></title>
