@@ -4,7 +4,7 @@
   <title><![CDATA[Chandra Patni]]></title>
   <link href="http://rubyorchard.github.com/atom.xml" rel="self"/>
   <link href="http://rubyorchard.github.com/"/>
-  <updated>2011-12-27T19:30:58-08:00</updated>
+  <updated>2012-04-22T18:08:19-07:00</updated>
   <id>http://rubyorchard.github.com/</id>
   <author>
     <name><![CDATA[Chandra Patni]]></name>
@@ -12,6 +12,61 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Object Notations beyond JavaScript]]></title>
+    <link href="http://rubyorchard.github.com/blog/2012/01/01/object-notations-beyond-javascript/"/>
+    <updated>2012-01-01T00:22:00-08:00</updated>
+    <id>http://rubyorchard.github.com/blog/2012/01/01/object-notations-beyond-javascript</id>
+    <content type="html"><![CDATA[<p>JavaScript Object Notation is a data interchange format based on JavaScript object literals. The beauty of JSON is in identifying a set of data type literals of language that are safe and useful for data interchange. For instance the following snippet represents a valid JavaScript but it&#8217;s unsafe for data interchange and is invalid JSON.</p>
+
+<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="p">{</span><span class="s2">&quot;body&quot;</span> <span class="o">:</span> <span class="s2">&quot;Chunky &quot;</span> <span class="o">+</span> <span class="s2">&quot;Bacon&quot;</span><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>On the the other hand, the example below is using String literal and is valid JSON.</p>
+
+<p>Liquid error: ClassNotFound: no lexer for alias &#8216;json&#8217; found</p>
+
+<p>This simple idea goes a long way. Instead of defining our own format for data interchange, we are using subset of a language for exchanging objects by computer programs and since it&#8217;s represented in JavaScript, it&#8217;s easy to understand. Once you think about safety, it&#8217;s intuitive to see the subset of language constructs useful for data interchange.</p>
+
+<p>The idea behind JSON employing JavaScript is analogous to REST employing HTTP. This makes JSON natural format for RESTful services and typically RESTful services provide data in JSON and XML formats. However, often working with Ruby and PHP, I find neither JSON nor XML, particularly enjoyable for hacking services. I would much prefer REST services data in the native format of language I am working with. From service provider point of view, it&#8217;s worthwhile to target other dynamic languages with rich set of object literals like Ruby, PHP, Python, etc. This leads to the generalization of Object Notations which involves identifying a set of literals and using them for data interchange. For instance the Ruby and PHP Object Notations for above snippet can be represented as:</p>
+
+<p>Ruby Object Notation:</p>
+
+<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="p">{</span><span class="ss">:body</span> <span class="o">=&gt;</span> <span class="s2">&quot;Chunky Bacon&quot;</span><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>PHP Object Notation:</p>
+
+<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='php'><span class='line'><span class="x">array(&quot;body&quot; =&gt; &quot;Chunky Bacon&quot;)</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Service provider who provide formats like XML and JSON,</p>
+
+<ul>
+<li>http://api.example.com/posts/1.json</li>
+<li>http://api.example.com/posts/1.xml</li>
+</ul>
+
+
+<p>should also consider other object notations like:</p>
+
+<ul>
+<li>http://api.example.com/posts/1.rbon</li>
+<li>http://api.example.com/posts/1.phpon</li>
+<li>http://api.example.com/posts/1.pyon</li>
+</ul>
+
+
+<p>Object notation with padding is the generalization of JSONP where the Object Notation is passed as argument to a specified function which allows programming REST easier than just returning them as values. For RESTful services, JSON and other object notations are better fit than XML. For an example in action, check out <a href="http://github.com/rubyorchard/geoip-rest">http://github.com/rubyorchard/geoip-rest</a> for GeoIP City and Country REST APIs which offer object notation in Ruby, PHP, JSON and XML formats.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[lint conjecture]]></title>
